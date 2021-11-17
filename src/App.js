@@ -6,7 +6,7 @@ import Details from './containers/details'
 
 function App() {
   return (
-    <Routes basename={process.env.PUBLIC_URL}>
+    <Routes>
       <Route path='/details/:id' element={<Details />}/>
       <Route path='/' exact element={<Home />}/>      
     </Routes>
